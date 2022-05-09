@@ -1,21 +1,21 @@
-    body {
-        background: mistyrose;
-        height: 120vh;
-        overflow: hidden;
-        display: flex;
-	font-family: "Anton", sans-serif;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        perspective: 1300px;
-    }
+body {
+  background: mistyrose;
+  height: 120vh;
+  overflow: hidden;
+  display: flex;
+  font-family: "Anton", sans-serif;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  perspective: 1300px;
+}
     
-    .rains div {
+.rains div {
         position: absolute;
         transform-style: preserve-3d;
-    }
+}
     
-    #chocolate_rains {
+#chocolate_rains {
         transform: rotateX(-15deg);
     }
     
@@ -1016,7 +1016,7 @@ body.page2 {
 h4 {
 	font-size: 26px;
 	line-height: 1px;
-	font-family: 'Amatic SC', cursive !important;
+	font-family:monospace !important;
 }
 
 .color1{color:#1BBC9B}/*MOUNTAIN MEADOW*/
@@ -1222,6 +1222,10 @@ div.imgBox p{
 }
 
 @media only screen and (max-width:480px){
+  body.page2{
+    font-family: 'Indie Flower', cursive !important;
+  }
+  
   .happy{
     left:0;
 
