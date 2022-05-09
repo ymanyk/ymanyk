@@ -1222,7 +1222,7 @@ div.imgBox p{
 }
 
 @media only screen and (max-width:480px){
-  body.page2{
+  .details p{
     font-family: monospace;
   }
   
