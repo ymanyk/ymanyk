@@ -1223,7 +1223,7 @@ div.imgBox p{
 
 @media only screen and (max-width:480px){
   body.page2{
-    font-family: 'Indie Flower', cursive !important;
+    font-family: monospace;
   }
   
   .happy{
