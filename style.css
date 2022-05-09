@@ -678,7 +678,7 @@
 span.flow{
   background-image: url('image/flower2.ico');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-radius: 50%;
   width: 80%;
 }
@@ -1033,14 +1033,14 @@ h4 {
 	background: #ffffe0;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.2), 20px 0 60px rgba(0,0,0,.5);
 	transition: 1.5s;
   z-index: 1;
 }
 
 .card:hover {
 	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
-	box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,.2);
 }
 
 .card:before {
@@ -1073,6 +1073,7 @@ h4 {
 	position: relative;
 	transform-origin: left;
 	transition: 2.7s;
+  opacity: 1;
 }
 
 div.imgBox p{
@@ -1088,7 +1089,7 @@ div.imgBox p{
 	background: #ffffe0;
 	width: 100%;
 	height: 100%;
-	opacity: 0.9;
+	opacity: 1;
 	transition: 2.7s;
 }
 
@@ -1110,7 +1111,7 @@ div.imgBox p{
 .card:hover .bark {
 	opacity: 1;
 	transition: .6s;
-  box-shadow: 300px 200px 100px rgba(0, 0, 0, .2) inset;
+  box-shadow: 300px 200px 100px rgba(0, 0, 0, .1) inset;
 }
 
 .card .details {
@@ -1126,7 +1127,7 @@ div.imgBox p{
 .card .details p {
 	font-size: 15px;
 	line-height: 5px;
-	transform: rotate(-10deg);
+	transform: rotate(-16deg);
 	padding: 0 0 0 20px;
 }
 
